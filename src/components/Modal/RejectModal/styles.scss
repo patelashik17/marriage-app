@@ -1,0 +1,35 @@
+.reject-modal {
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.7);
+  .reject-modal-inner {
+    display: flex;
+    flex-direction: column;
+    .modal-title {
+      flex: 1;
+    }
+  }
+  .reject-modal-body {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    .text-area-heading {
+      align-items: center;
+      margin-top: 0.5rem;
+      .text-area {
+        width: 100%;
+        margin-top: 0.7rem;
+      }
+    }
+  }
+  .check-box-group {
+    margin-top: 1rem;
+  }
+  .modal-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    .reject-button {
+      margin-right: 10px;
+    }
+  }
+}
